@@ -1,150 +1,148 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  background-color: #F9F9F9;
-  color: #fff
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #f9f9f9;
+	color: #fff;
 }
 
 .background {
-  background-color: #2C2E31;
-  height: 400px;
+	background-color: #2c2e31;
+	height: 400px;
+	margin-bottom: 50vh;
 }
 
 header {
-  background-color: #222222;
+	background-color: #222222;
 }
 
 .navbar {
-  list-style: none;
-  width: max-content;
-  margin: 0 auto;
-  padding: 10px 0;
+	list-style: none;
+	width: max-content;
+	margin: 0 auto;
+	padding: 10px 0;
 
-  display: flex;
-  gap: 50px;
+	display: flex;
+	gap: 50px;
 }
 
-.navbar li a{
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  font-size: 16px;
+.navbar li a {
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
 
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .navbar li a i {
-  margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 main {
-  padding: 50px 20px;
-  width: 1000px;
+	padding: 50px 20px;
+	width: 1000px;
 
-  position: absolute;
-  top: 50px;
-  left: calc(50% - 1000px/2);
+	position: absolute;
+	top: 50px;
+	left: calc(50% - 1000px / 2);
 }
 
 h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
 }
 
 .profile-card {
-  background-color: #fff;
-  border-radius: 3px;
-  overflow: hidden;
-  padding: 20px 0;
-  margin-top: 50px;
-  color: #000;
-  text-align: center;
-  box-shadow: 0px 7px 7px -2px rgba(9,9,9,0.5);
+	background-color: #fff;
+	border-radius: 3px;
+	overflow: hidden;
+	padding: 20px 0;
+	margin-top: 50px;
+	color: #000;
+	text-align: center;
+	box-shadow: 0px 7px 7px -2px rgba(9, 9, 9, 0.5);
 
-  position: relative;
+	position: relative;
 }
 
 .profile-img {
-  border-radius: 50%;
-  width: 170px;
-  height: 170px;
-  overflow: hidden;
-  padding: 5px;
-  border: 1px solid #bbb;
-  margin: 0 auto;
-  background-color: #fff;
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	overflow: hidden;
+	padding: 5px;
+	border: 1px solid #bbb;
+	margin: 0 auto;
+	background-color: #fff;
 
-  position: absolute;
-  left: calc(50% - 150px/2);
+	position: absolute;
+	left: calc(50% - 150px / 2);
 }
 
 .profile-img img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
 }
 
 .profile-card hr {
-  border-width: 0;
-  height: 1px;
-  background-color: #bbb;
-  margin: 120px 0 80px 0;
+	border-width: 0;
+	height: 1px;
+	background-color: #bbb;
+	margin: 120px 0 80px 0;
 }
 
 .profile-info {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .profile-info span {
-  color: #999;
-  font-size: 18px;
+	color: #999;
+	font-size: 18px;
 }
 
 .profile-info p {
-  margin: 5px;
-  font-size: 38px;
+	margin: 5px;
+	font-size: 38px;
 }
 
 .profile-options-container {
-  list-style: none;
-  margin-top: 40px;
-  margin-bottom: 30px;
+	list-style: none;
+	margin-top: 40px;
+	margin-bottom: 30px;
 
-  display: flex;
-  justify-content: center;
-  gap: 70px
+	display: flex;
+	justify-content: center;
+	gap: 70px;
 }
 
 .profile-options-container li {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .profile-options-container li i {
-  color: #ccc
+	color: #ccc;
 }
 
 .active {
-  color: #83BA43 !important
+	color: #83ba43 !important;
 }
 
 footer {
-  background-color: #2C2E31;
-  width: 100%;
-  padding: 20px 50px;
-
-  position: absolute;
-  bottom: 0;
+	background-color: #2c2e31;
+	width: 100%;
+	padding: 20px 50px;
 }
 
 footer a {
-  text-decoration: none;
-  color: #3D873F;
+	text-decoration: none;
+	color: #3d873f;
 }
