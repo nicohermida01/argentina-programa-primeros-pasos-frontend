@@ -1,53 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Online | Proyecto Final</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CV Online | Proyecto Final</title>
+		<link rel="icon" type="image/x-icon" href="./assets/favicon-512.ico" />
 
-  <link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="styles.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+		<!-- Google Fonts API -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 
-  <script src="https://kit.fontawesome.com/32c1bf723a.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="navbar" id="navbar"></ul>
-    </nav>
-  </header>
+		<!-- Font Awesome API -->
+		<script
+			src="https://kit.fontawesome.com/32c1bf723a.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<aside>
+			<header>
+				<div class="header-img">
+					<img
+						src="./assets/images/carmen-fernandez-perez.png"
+						alt="Carmen Fernández Pérez"
+					/>
+				</div>
+				<a href="">
+					<h2>Carmen Fernández Pérez</h2>
+				</a>
+			</header>
 
-  <div class="background"></div>
+			<nav>
+				<ul class="navbar">
+					<li>
+						<a href="#personal-info" class="nav-item">Información Personal</a>
+					</li>
 
-  <main>
-    <h1>CV Online | Proyecto Final</h1>
+					<li>
+						<a href="#work-experience" class="nav-item">Experiencia Laboral</a>
+					</li>
 
-    <div class="profile-card">
-      <div class="profile-img">
-        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="Profile image" />
-      </div>
+					<li>
+						<a href="#academic-education" class="nav-item"
+							>Formación Academica</a
+						>
+					</li>
 
-      <hr>
+					<li>
+						<a href="#interesting-info" class="nav-item">Datos de Interés</a>
+					</li>
 
-      <div class="profile-info">
-        <span id="profile-title">Hi, My name is</span>
-        <p id="profile-value">Savannah Howard</p>
-      </div>
+					<li>
+						<a href="#contact-form" class="nav-item">Contáctame</a>
+					</li>
+				</ul>
+			</nav>
 
-      <ul id="profile-options" class="profile-options-container">
-      </ul>
-    </div>
-  </main>
+			<button>Descargar CV</button>
+		</aside>
 
-  <footer>
-    The content and design of the page are taken from
-    <a href="https://randomuser.me/" target="_blank">randomuser.me</a>
-  </footer>
+		<main>
+			<div class="topbar"></div>
 
-  <script src="main.js"></script>
-</body>
+			<section id="personal-info">
+				<div class="personal-info-left">
+					<h1>Carmen Fernández Pérez</h1>
+					<ul>
+						<li>
+							<span>Dirección:</span>
+							Carrer Bonaire, 6, 25004, Lleida
+						</li>
+
+						<li>
+							<span>Teléfono:</span>
+							622432590
+						</li>
+
+						<li>
+							<span>Correo electrónico:</span>
+							carmenferper@outlook.com
+						</li>
+					</ul>
+
+					<div class="professional-profile">
+						<h2>Perfil Profesional</h2>
+						<p>
+							Recepcionista de hotel experta en la gestión de las necesidades de
+							los huéspedes y de los objetivos de negocio. Altamente organizada
+							en el manejo de funciones administrativas, dirigiendo equipos y
+							coordinando los servicios de las instalaciones.
+						</p>
+					</div>
+				</div>
+				<div class="personal-info-right">
+					<div class="profile-img">
+						<img
+							src="./assets/images/carmen-fernandez-perez.png"
+							alt="Carmen Fernández Pérez"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section id="work-experience">
+				<hr />
+				<h2 class="section-title">Expreciencia Laboral</h2>
+
+				<div class="work-item">
+					<div class="work-title">
+						<h3>Recepcionista de hotel</h3>
+						<span> 01/2017 - 08/2020</span>
+					</div>
+					<div class="work-title">
+						<h4>Parador de Lleida</h4>
+						<span> - Lleida</span>
+					</div>
+					<ul class="work-list">
+						<li>
+							<p>
+								Soporte al resto del personal del hotel para garantizar un
+								servicio de primera calidad.
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Asesoramiento sobre transportes, eventos, espectáculos, lugares
+								de interés y demás información.
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Información detallada a los clientes sobre los servicios del
+								hotel y las instalaciones.
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="work-item">
+					<div class="work-title">
+						<h3>Recepcionista de hotel</h3>
+						<span> 03/2013 - 10/2016</span>
+					</div>
+					<div class="work-title">
+						<h4>Parador de Lleida</h4>
+						<span> - Lleida</span>
+					</div>
+					<ul class="work-list">
+						<li>
+							<p>
+								Gestión de reservas y asignación de habitaciones según los
+								requisitos del huésped y la disponibilidad del hotel.
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Recepción y administración de correspondencia y notificaciones
+								para los huéspedes.
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Facturación y cobro de los servicios utilizados por los
+								clientes.
+							</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="work-item">
+					<div class="work-title">
+						<h3>Recepcionista de alojamientos turísticos</h3>
+						<span> 10/2009 - 12/2012</span>
+					</div>
+					<div class="work-title">
+						<h4>L'Hostalet</h4>
+						<span> - Lleida</span>
+					</div>
+					<ul class="work-list">
+						<li>
+							<p>
+								Gestión y coordinación de la custodia de objetos de valor y
+								dinero depositados por los clientes.
+							</p>
+						</li>
+
+						<li>
+							<p>
+								Gestión del check-in y check out diarios de los clientes
+								ofreciéndoles una cálida bienvenida a la llegada y una cordial
+								despedida al término de cada estancia.
+							</p>
+						</li>
+
+						<li>
+							<p>Gestión de reclamaciones.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="academic-education">
+				<hr />
+				<h2 class="section-title">Formación Academica</h2>
+
+				<div class="academic-item">
+					<p class="academic-item-title">
+						Diplomatura en Turismo <span>09/2008</span>
+					</p>
+					<p class="academic-item-place">
+						Universitat de Lleida <span>- Lleida</span>
+					</p>
+				</div>
+
+				<div class="academic-item">
+					<p class="academic-item-title">
+						Curso de Gestión Hotelera - ESAH <span>2009</span>
+					</p>
+				</div>
+			</section>
+
+			<section id="interesting-info">
+				<hr />
+				<h2 class="section-title">Datos de Interés</h2>
+			</section>
+
+			<section id="contact-form">
+				<hr />
+				<h2 class="section-title">Contáctame!</h2>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
 </html>
