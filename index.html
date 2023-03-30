@@ -40,7 +40,9 @@
 			<nav>
 				<ul class="navbar">
 					<li>
-						<a href="#personal-info" class="nav-item">Información Personal</a>
+						<a href="#personal-info" class="nav-item active"
+							>Información Personal</a
+						>
 					</li>
 
 					<li>
@@ -58,18 +60,23 @@
 					</li>
 
 					<li>
-						<a href="#contact-form" class="nav-item">Contáctame</a>
+						<a href="#contact-form-section" class="nav-item">Contáctame</a>
 					</li>
 				</ul>
 			</nav>
 
-			<button>Descargar CV</button>
+			<a
+				href="./assets/docs/carmen-fernandez-perez.pdf"
+				target="_blank"
+				class="cv-button"
+				>Descargar CV</a
+			>
 		</aside>
 
 		<main>
 			<div class="topbar"></div>
 
-			<section id="personal-info">
+			<section id="personal-info" data-index="1">
 				<div class="personal-info-left">
 					<h1>Carmen Fernández Pérez</h1>
 					<ul>
@@ -109,7 +116,7 @@
 				</div>
 			</section>
 
-			<section id="work-experience">
+			<section id="work-experience" data-index="2">
 				<hr />
 				<h2 class="section-title">Expreciencia Laboral</h2>
 
@@ -211,7 +218,7 @@
 				</div>
 			</section>
 
-			<section id="academic-education">
+			<section id="academic-education" data-index="3">
 				<hr />
 				<h2 class="section-title">Formación Academica</h2>
 
@@ -231,17 +238,77 @@
 				</div>
 			</section>
 
-			<section id="interesting-info">
+			<section id="interesting-info" data-index="4">
 				<hr />
 				<h2 class="section-title">Datos de Interés</h2>
+
+				<div class="skills">
+					<h3>Aptitudes:</h3>
+					<ul>
+						<li><p>Buenos conocimientos de facturación y cálculo</p></li>
+						<li><p>Altas dotes de atención al cliente</p></li>
+						<li><p>Sistemas de reservas</p></li>
+						<li><p>Sólidas habilidades comunicativas</p></li>
+						<li><p>Personalidad dinámica y resolutiva</p></li>
+						<li><p>Agilidad en el desarrollo de tareas</p></li>
+					</ul>
+				</div>
+
+				<div class="languages">
+					<h3>Idiomas:</h3>
+
+					<div class="language-wrapper">
+						<p class="language-title">
+							<span>Español, Catalán:</span>Idioma nativo
+						</p>
+					</div>
+
+					<div class="language-wrapper">
+						<p class="language-title"><span>Inglés:</span>C1</p>
+						<div class="language-bar">
+							<div class="language-bar-english"></div>
+						</div>
+						<p>Avanzado</p>
+					</div>
+
+					<div class="language-wrapper">
+						<p class="language-title"><span>Italiano:</span>B2</p>
+						<div class="language-bar">
+							<div class="language-bar-italian"></div>
+						</div>
+						<p>Intermedio avanzado</p>
+					</div>
+				</div>
 			</section>
 
-			<section id="contact-form">
+			<section id="contact-form-section" data-index="5">
 				<hr />
 				<h2 class="section-title">Contáctame!</h2>
+
+				<form id="contact-form">
+					<div>
+						<input type="text" placeholder="Nombre" id="name-input" required />
+						<input
+							type="email"
+							placeholder="Correo electrónico"
+							id="email-input"
+							required
+						/>
+					</div>
+
+					<input type="text" placeholder="Asunto" id="subject-input" />
+
+					<textarea placeholder="Mensaje" id="message-input"></textarea>
+
+					<div id="show-error-form" class="hide"></div>
+
+					<div class="button-container">
+						<button class="submit-btn">Enviar mensaje!</button>
+					</div>
+				</form>
 			</section>
 		</main>
 
-		<script src="main.js"></script>
+		<script src="index.js" type="module"></script>
 	</body>
 </html>
